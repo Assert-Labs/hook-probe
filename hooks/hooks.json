@@ -1,0 +1,54 @@
+{
+  "hooks": {
+    "sessionStart": [
+      {
+        "command": "sh \"${CURSOR_PLUGIN_ROOT}/log.sh\" cursor-default sessionStart"
+      }
+    ],
+    "beforeSubmitPrompt": [
+      {
+        "command": "sh \"${CURSOR_PLUGIN_ROOT}/log.sh\" cursor-default beforeSubmitPrompt"
+      }
+    ],
+    "preToolUse": [
+      {
+        "command": "sh \"${CURSOR_PLUGIN_ROOT}/log.sh\" cursor-default preToolUse"
+      }
+    ],
+    "postToolUse": [
+      {
+        "command": "sh \"${CURSOR_PLUGIN_ROOT}/log.sh\" cursor-default postToolUse"
+      }
+    ],
+    "afterFileEdit": [
+      {
+        "command": "sh \"${CURSOR_PLUGIN_ROOT}/log.sh\" cursor-default afterFileEdit"
+      }
+    ],
+    "beforeShellExecution": [
+      {
+        "command": "sh \"${CURSOR_PLUGIN_ROOT}/log.sh\" cursor-default beforeShellExecution"
+      }
+    ],
+    "afterShellExecution": [
+      {
+        "command": "sh \"${CURSOR_PLUGIN_ROOT}/log.sh\" cursor-default afterShellExecution"
+      }
+    ],
+    "afterAgentResponse": [
+      {
+        "command": "sh \"${CURSOR_PLUGIN_ROOT}/log.sh\" cursor-default afterAgentResponse"
+      }
+    ],
+    "stop": [
+      {
+        "command": "sh \"${CURSOR_PLUGIN_ROOT}/log.sh\" cursor-default stop"
+      }
+    ],
+    "sessionEnd": [
+      {
+        "command": "sh \"${CURSOR_PLUGIN_ROOT}/log.sh\" cursor-default sessionEnd"
+      }
+    ]
+  }
+}

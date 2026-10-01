@@ -9,52 +9,52 @@
     "hooks": {
       "sessionStart": [
         {
-          "command": "\"${CLAUDE_PLUGIN_ROOT}/log.sh\" cursor-inline sessionStart"
+          "command": "./log.sh cursor-inline sessionStart"
         }
       ],
       "beforeSubmitPrompt": [
         {
-          "command": "\"${CLAUDE_PLUGIN_ROOT}/log.sh\" cursor-inline beforeSubmitPrompt"
+          "command": "./log.sh cursor-inline beforeSubmitPrompt"
         }
       ],
       "preToolUse": [
         {
-          "command": "\"${CLAUDE_PLUGIN_ROOT}/log.sh\" cursor-inline preToolUse"
+          "command": "./log.sh cursor-inline preToolUse"
         }
       ],
       "postToolUse": [
         {
-          "command": "\"${CLAUDE_PLUGIN_ROOT}/log.sh\" cursor-inline postToolUse"
+          "command": "./log.sh cursor-inline postToolUse"
         }
       ],
       "afterFileEdit": [
         {
-          "command": "\"${CLAUDE_PLUGIN_ROOT}/log.sh\" cursor-inline afterFileEdit"
+          "command": "./log.sh cursor-inline afterFileEdit"
         }
       ],
       "beforeShellExecution": [
         {
-          "command": "\"${CLAUDE_PLUGIN_ROOT}/log.sh\" cursor-inline beforeShellExecution"
+          "command": "./log.sh cursor-inline beforeShellExecution"
         }
       ],
       "afterShellExecution": [
         {
-          "command": "\"${CLAUDE_PLUGIN_ROOT}/log.sh\" cursor-inline afterShellExecution"
+          "command": "./log.sh cursor-inline afterShellExecution"
         }
       ],
       "afterAgentResponse": [
         {
-          "command": "\"${CLAUDE_PLUGIN_ROOT}/log.sh\" cursor-inline afterAgentResponse"
+          "command": "./log.sh cursor-inline afterAgentResponse"
         }
       ],
       "stop": [
         {
-          "command": "\"${CLAUDE_PLUGIN_ROOT}/log.sh\" cursor-inline stop"
+          "command": "./log.sh cursor-inline stop"
         }
       ],
       "sessionEnd": [
         {
-          "command": "\"${CLAUDE_PLUGIN_ROOT}/log.sh\" cursor-inline sessionEnd"
+          "command": "./log.sh cursor-inline sessionEnd"
         }
       ]
     }
